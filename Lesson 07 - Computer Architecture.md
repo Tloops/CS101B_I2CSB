@@ -109,7 +109,7 @@ EDSAC也是用这种体系结构，同时它也是世界上第一台能够存储
 - RISC：Reduced Instruction-Set Computer（精简指令集计算机）
   - 思想：CPU仅实现最少的指令，保证所有功能的实现即可
   - 用在：PowerPC处理器，ARM处理器
-  - 优点：指令少，指令所需的存储空间就更少
+  - 优点：指令少，指令所需的存储空间就更少，CPU硬件上设计起来也更简单
   - 缺点：复杂的操作需要大量指令来完成
 - CISC：Complex Instruction-Set Computer（复杂指令集计算机）
   - 思想：CPU应当能执行各种各样的指令，尽管一部分
