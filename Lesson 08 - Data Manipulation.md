@@ -32,7 +32,24 @@ Three groups:
 - 前4位表示**Op-code操作码**（最多16种指令）
 - 后12位表示**Operand操作数**
 
-具体每条指令略
+总共有12种指令：
+
+| Op-code | Operand |                         Description                          |
+| :-----: | :-----: | :----------------------------------------------------------: |
+|    1    |   RXY   |         **LOAD** data from address XY to register R          |
+|    2    |   RXY   |        **LOAD** the immediate value XY to register R         |
+|    3    |   RXY   |       **STORE** the value in register R to address XY        |
+|    4    |   0RS   |        **MOVE** the value in register R to register S        |
+|    5    |   RST   | **ADD** the values in register S and T and store the result in register R |
+|    6    |   RST   | **ADD** the values in register S and T and store the result in register R but consider them as floating point numbers |
+|    7    |   RST   | **OR** the values in register S and T and store the result in register R |
+|    8    |   RST   | **AND** the values in register S and T and store the result in register R |
+|    9    |   RST   | **XOR** the values in register S and T and store the result in register R |
+|    A    |   R0X   | **ROTATE** the value in register R to the right X times circularly |
+|    B    |   RXY   | **JUMP** to instruction at address XY if register R has the same value as register 0 |
+|    C    |   000   |                           **HALT**                           |
+
+
 
 ### 思考
 
