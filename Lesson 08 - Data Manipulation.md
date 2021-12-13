@@ -57,7 +57,7 @@ Three groups:
    1. load/store到底load/store了几个bit？6C、6D、6E相邻，如果一次是16bit会有问题（但是我后来发现通用寄存器和存储单元容量都是8 bit，因此LOAD肯定只LOAD 8 bit，这个问题根本就不存在）
    2. overflow
 2. 给一串机器码，问是哪一种循环（while, do-while, for?）
-3. 把乘法用这个示例写出来练一练
+3. 把乘法用这个示例写出来练一练（应该就是考试题）
 
 
 

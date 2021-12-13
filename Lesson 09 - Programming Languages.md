@@ -1,6 +1,6 @@
 # Lesson 09 - Programming Languages and Compilers
 
-> 介绍了现代高级语言出现的原因以及什么是编译器
+> 介绍了现代高级程序设计语言出现的原因以及什么是编译器
 
 ## 汇编语言（Assembly Language）
 
@@ -45,7 +45,6 @@ JVM之后会编译或解释这些bytecode并执行它们
   - 操作语句
 
   - 注释
-
 - 变量（Variable）：存储数据，可以改变
 - 数据类型（Data Type）：规定一个数据的存储的范围
 - 常量（Constants）：不变的数据
@@ -55,5 +54,73 @@ JVM之后会编译或解释这些bytecode并执行它们
   - 逻辑（Logic）：`a > b`
     - 关系操作符：`> < >= <= == != (or <> or /=)`
 
-- 赋值（Assignment）：改变变量内的数据 （:=），如`Z := X + Y`
+### 几种基本的语句
 
+顺序执行、条件分支和循环
+
+- 赋值（Assignment）：改变变量内的数据 （:=），如`Z := X + Y`
+  - 左边是变量名，右边可以是一个数值，也可以是一个算术或逻辑表达式
+
+- 顺序执行（Sequence）
+- 判断（If statement）
+  - ppt中的红字是**保留字**，这些单词不可以用作变量名
+
+- 循环（While statement）
+
+#### 重要的概念：
+
+- 子程序（Subprograms）
+  - Void subprograms (procedures) 过程
+  - Value-returning subprograms (functions) 函数
+  - Parameters 参数
+    - Formal parameters：形式参数，子程序内进行操作时使用的变量
+    - Actual parameters：实际参数，调用子程序时外部程序传入的变量
+  - 数据传递方式
+    - Calling (Passing) by value 传值
+    - Calling (Passing) by reference 传引用地址
+
+
+
+## 编译（Compilation）
+
+定义：从一种表示语言转换为另一种表示语言的过程
+
+三个阶段：
+
+1. Lexical analysis 字句分析：断成一个个的词（token）
+2. Parsing 翻译：得到parse tree （文法树）
+3. Code generation 代码生成：根据parse tree生成代码
+
+
+
+## Important Programming Languages
+
+### C
+
+- 第一个系统程序设计语言
+- 最有效
+- 最广泛被应用（Unix操作系统）
+- 最容易掌握
+- 最“不可靠”（因为有很多不安全的操作（直接操作内存））
+
+### Ada
+
+- Ada 83 世界上第一种编程语言
+- boeing 777 99%的代码都是用Ada写的
+- 以Ada Lovelace的名字命名，她是世界上第一个程序员
+
+### C++
+
+- C的后继，更加安全
+- 引入了面向对象
+
+### Java
+
+- C++的后继
+- 移除了一些C++的复杂的操作使其更加鲁棒
+
+除此之外，还有LISP、Scheme和SPARK（Ada的子集）
+
+### Python
+
+- 简单、容易使用
