@@ -24,7 +24,7 @@ SUSTech 计算机导论B 知识点梳理
 - Lesson 03 - Computability
 - Lesson 04 - Algorithms
 - Lesson 05 - [Data, Information, and Knowledge, and Their Representations](./Lesson%2005%20-%20Data%2C%20Information%2C%20and%20Knowledge%2C%20and%20Their%20Representations.md) (finished on Dec. 17th)
-- Lesson 06 - Data Storage
+- Lesson 06 - [Data Storage](./Lesson%2006%20-%20Data%20Storage.md) (finished on Dec. 30th)
 - Lesson 07 - [Computer Architecture](./Lesson%2007%20-%20Computer%20Architecture.md) (finished on Dec. 8th)
 - Lesson 08 - [Data Manipulation in Computer Systems](./Lesson%2008%20-%20Data%20Manipulation.md) (finished on Dec. 9th)
 - Lesson 09 - [Programming Languages and Compilers](./Lesson%2008%20-%20Data%20Manipulation.md) (finished on Dec. 13th)
