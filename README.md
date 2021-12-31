@@ -19,7 +19,7 @@ SUSTech 计算机导论B 知识点梳理
 
 ### Contents
 
-- Lesson 01 - Computer Science: What Is It and Why Study It?
+- Lesson 01 - [Computer Science: What Is It and Why Study It?](./Lesson%2001%20-%20Computer%20Science%20What%20Is%20It%20and%20Why%20Study%20It.md)
 - Lesson 02 - Computation: What Is It and Why Study It？
 - Lesson 03 - Computability
 - Lesson 04 - Algorithms
