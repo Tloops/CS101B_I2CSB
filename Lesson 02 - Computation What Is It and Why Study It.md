@@ -115,19 +115,63 @@ Computation（计算）的定义：计算、推演或者计数的过程
 
 功能：检测#前后的字符串是否相同
 
+思想：让读写头左右横跳，判断对应位置的符号是否相同
+
 <img src="./imgs/L02_1.png" alt="L02_1" style="zoom:50%;" />
 
 #### M2
 
 功能：检测输入中0的个数是不是2的幂
 
+思想：每次划去一半的0，某次剩的0为大于1的奇数就reject，若为1则accept
+
 <img src="./imgs/L02_2.png" alt="L02_2" style="zoom:50%;" />
 
 
 
-### Configuration
+### Configuration（瞬像、格局）
 
-当前状态、当前纸带内容和当前读写头的位置的设定被叫做一个configuration
+当前状态、当前纸带内容和当前读写头的位置的设定被叫做一个**configuration**
 
 configuration可以表示为$u\ q\ v$，其中，u、v为字符串，q为当前状态，这表示当前状态为q，纸带内容为uv，当前的读写头在v字符串的第一个符号。
 
+**yield**（产生）：如果configuration C1可以一步到达configuration C2则说**C1 yield C2**
+
+1. start configuration：$q_0w$，初始状态为q0，且读写头在最左侧
+
+2. halting configuration：不yield任何configuration的configuration
+
+   - accept configuration：状态为$q_{accept}$时的configuration
+
+   - reject configuration：状态为$q_{reject}$时的configuration
+
+ps：因为configuration和yield翻译成中文太离谱了所以这些名词就不翻译啦
+
+
+
+### 图灵机的变体
+
+1. 多纸带图灵机（都可以找到等价的单纸带图灵机）
+2. 非决定性图灵机（状态转换函数由概率决定）
+
+
+
+## 啥是computation及为啥要学它
+
+### what
+
+- 由**有限**计算步骤的过程组成
+- 预先决定好的**有序**过程
+
+### why
+
+- 探索computation的本质
+- 找到设计和实现“电脑”的原则（自动computation）
+- computation的限制
+- computation的效力和效率
+
+### 可计算和不可计算
+
+- Uncomputable functions：不可以用有限的步骤计算出来的函数（用不停机的TM）
+- Computable functions：可以用有限的步骤计算出来的函数
+- “Really” computable functions：有效时间内能计算出来的
