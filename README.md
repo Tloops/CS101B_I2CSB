@@ -32,3 +32,4 @@ SUSTech 计算机导论B 知识点梳理
 - Lesson 09 - [Programming Languages and Compilers](./Lesson%2008%20-%20Data%20Manipulation.md) (finished on Dec. 13th, 2021)
 - Lesson 10 - [Operating Systems](./Lesson%2010%20-%20Operating%20System.md) (finished on Dec. 27th, 2021)
 - Lesson 11 - [System Software and Application Software](./Lesson%2011%20-%20System%20Software%20and%20Application%20Software.md) (finished on Dec. 27th, 2021)
+- Epilogue - [写在后面的话](./写在后面的话.md)
