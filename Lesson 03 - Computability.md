@@ -56,7 +56,7 @@
 
 **decider**：对于所有输入均会停机的图灵机
 
-一个能够recognize一种语言的图灵机，也被说成是**decide**那一种语言。
+一个能够recognize一种语言的decider，也被说成是**decide**那一种语言。
 
 重要：每个decider都是图灵机，而每个图灵机不一定都是decider
 
