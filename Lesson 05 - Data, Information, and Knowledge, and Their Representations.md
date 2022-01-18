@@ -62,7 +62,7 @@ data和information的区别：
     - hexadecimal 十六进制：0到9，A到F（10到15）
   - 现代计算机最底层的硬件中所有的数据都是用0和1来存储的（还记得下节课要学的`flip-flop`吗），这恰好和二进制不谋而合，因此计算机里的数据和指令都是以**二进制**的形式存储的。
   - 之所以要把Number放在第一个讲，是因为其实任何一种形式的数据Text、Audio、Images and graphics还是Video，**归根结底都是以Number的形式存放在内存中的**。
-- 有小数部分的base为R的数$(d_nd_{n-1}d_{n-2}...d_2d_1.d_{-1}d_{-2}...d_{-m})_R$，表示的数为$\sum_{i=1}^n d_i \cdot R^{i-1} + \sum_{i=1}^m d_{-i} \cdot R^{-i}$
+- 有小数部分的base为R的数<img src="https://latex.codecogs.com/svg.image?\inline&space;(d_nd_{n-1}d_{n-2}...d_2d_1.d_{-1}d_{-2}...d_{-m})_R" title="\inline (d_nd_{n-1}d_{n-2}...d_2d_1.d_{-1}d_{-2}...d_{-m})_R" />，表示的数为<img src="https://latex.codecogs.com/svg.image?\inline&space;\sum_{i=1}^n&space;d_i&space;\cdot&space;R^{i-1}&space;&plus;&space;\sum_{i=1}^m&space;d_{-i}&space;\cdot&space;R^{-i}" title="\inline \sum_{i=1}^n d_i \cdot R^{i-1} + \sum_{i=1}^m d_{-i} \cdot R^{-i}" />
 - bit（比特，binary digit的缩写，即二进制数字），即二进制系统中的一位数字，一个0或者一个1；
 - 1 byte = 8 bits，一个字节是8个比特
 - word，字，字长是计算机能一次性能处理的位数的长度（请看Lesson 08）
@@ -78,9 +78,9 @@ data和information的区别：
 先从十进制出发，当使用两位十进制数表示数字时，我们可以使用0到49表示它们这个数本身，用50到99表示-50到-1，不难发现，这种表示依然可以满足大部分数之间的加法（无溢出的情况下）。出于使用加法表示减法的目的（见Lesson 08，Appendix C中的示例计算机只有加法操作），`a-b`可以看做`a+(-b)`，而表示`-b`的数需要用十进制补码来获得，在本例中表示`-b`的数就是`100-b`（即`b`的十进制补码）。从本质上看，找一个数的补码就是在找表示负的这个数的数字是什么。
 
 由于计算机还是得使用二进制，所以我们同样使用一半来表示负数，另一半来表示正数和零。以及二进制补码：
-$$
-Negative(I) = 2^k - I
-$$
+
+<img src="https://latex.codecogs.com/svg.image?Negative(I)&space;=&space;2^k&space;-&space;I" title="Negative(I) = 2^k - I" />
+
 此处**k**为表示一个数所用的二进制的位数，即k bit。
 
 由于二进制的特殊性，这使有一个明显的性质：当且仅当一个数为负数时，这个数的**最高位为1**。
@@ -99,22 +99,21 @@ $$
 
 3. **mantissa**：尾数位，表示了一个数的末位的数码，或者说是“精度”
 
-其实跟科学计数法很像，科学计数法表示一个数：$6.626 \times 10^{-34}$
+其实跟科学计数法很像，科学计数法表示一个数：<img src="https://latex.codecogs.com/svg.image?\inline&space;6.626&space;\times&space;10^{-34}" title="\inline 6.626 \times 10^{-34}" />
 
 - sign bit：0
 - exponent：-34
 - mantissa：6.626
 
 而在计算机的世界里，咱们还是得用二进制：
-$$
-(-1)^s \times mantissa \times 2^{exponent}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?(-1)^s&space;\times&space;mantissa&space;\times&space;2^{exponent}" title="(-1)^s \times mantissa \times 2^{exponent}" />
+
 s表示sign bit（0或1），mantissa是尾数部分，exponent就是指数部分
 
 为了一些原因，实际上是这样表示的：
-$$
-(-1)^s \times (1 + mantissa) \times 2^{expoment-bias}
-$$
+
+<img src="https://latex.codecogs.com/svg.image?(-1)^s&space;\times&space;(1&space;&plus;&space;mantissa)&space;\times&space;2^{expoment-bias}" title="(-1)^s \times (1 + mantissa) \times 2^{expoment-bias}" />
 
 
 ### Character（字符）
