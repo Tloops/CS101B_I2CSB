@@ -61,7 +61,7 @@ Computation（计算）的定义：计算、推演或者计数的过程
 - <img src="https://latex.codecogs.com/svg.image?\inline&space;w^R" title="\inline w^R" />：反向字符串，对于字符串，<img src="https://latex.codecogs.com/svg.image?\inline&space;w&space;=&space;w_1w_2w_3...w_n" title="\inline w = w_1w_2w_3...w_n" />，<img src="https://latex.codecogs.com/svg.image?\inline&space;w^R&space;=&space;w_n...w_3w_2w_1" title="\inline w^R = w_n...w_3w_2w_1" />
 
 - <img src="https://latex.codecogs.com/svg.image?\inline&space;xy" title="\inline xy" />：拼接字符串，将字符串<img src="https://latex.codecogs.com/svg.image?\inline&space;y" title="\inline y" />添加到字符串<img src="https://latex.codecogs.com/svg.image?\inline&space;x" title="\inline x" />的后面
-- $x^k$：自己头尾相接拼自己k次
+- <img src="https://latex.codecogs.com/svg.image?x^k" title="x^k" />：自己头尾相接拼自己k次
 - **prefix**：前缀，如果存在一个字符串<img src="https://latex.codecogs.com/svg.image?\inline&space;z" title="\inline z" />，使得<img src="https://latex.codecogs.com/svg.image?\inline&space;xz=y" title="\inline xz=y" />，则字符串<img src="https://latex.codecogs.com/svg.image?\inline&space;x" title="\inline x" />是字符串<img src="https://latex.codecogs.com/svg.image?\inline&space;y" title="\inline y" />的**prefix**
 - **proper prefix**：真前缀，如果存在一个字符串<img src="https://latex.codecogs.com/svg.image?z" title="z" />，使得<img src="https://latex.codecogs.com/svg.image?xz=y" title="xz=y" />，并且，则<img src="https://latex.codecogs.com/svg.image?x&space;\neq&space;y" title="x \neq y" />字符串<img src="https://latex.codecogs.com/svg.image?x" title="x" />是字符串<img src="https://latex.codecogs.com/svg.image?y" title="y" />的**proper prefix**（显然此情况下，需要<img src="https://latex.codecogs.com/svg.image?z" title="z" />是一个非空字符串）
 

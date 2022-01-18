@@ -30,7 +30,7 @@
 
 ### 图灵机的语言（the language of TM）
 
-对于一个图灵机M，它所接受的字符串组成的集合则被称为**the language of M**或者说是**the language recognized by M**，这个集合可以用$L(M)$表示。它可以是一个无限的集合。任何一个图灵机仅接受一种语言。
+对于一个图灵机M，它所接受的字符串组成的集合则被称为**the language of M**或者说是**the language recognized by M**，这个集合可以用<img src="https://latex.codecogs.com/svg.image?L(M)" title="L(M)" />表示。它可以是一个无限的集合。任何一个图灵机仅接受一种语言。
 
 
 
@@ -115,7 +115,7 @@
 
 **countable set**（可数集）：有限集或可以和自然数集一一对应
 
-结论1：对于任意的alphabet $\Sigma$，其上所有字符串的集合$\Sigma^*$是可数集
+结论1：对于任意的alphabet <img src="https://latex.codecogs.com/svg.image?\Sigma" title="\Sigma" />，其上所有字符串的集合<img src="https://latex.codecogs.com/svg.image?\Sigma^*" title="\Sigma^*" />是可数集
 
 结论2：所有图灵机的集合是一个可数集
 
@@ -125,6 +125,7 @@
 
 由于实数集是不可数集，而实数集的任意子集也是一种语言，所以所有语言的集合也不可数。而图灵机是可数集，由鸽巢原理可知，一定存在Turing-unrecognizable的Languages。（课件97页有其证明）
 
-$L^C$，所有不在$L$中的字符串构成的集合，其实就是L的在全集$\Sigma^*$下的补集
+<img src="https://latex.codecogs.com/svg.image?L^C" title="L^C" />，所有不在L符串构成的集合，其实就是L的在全集<img src="https://latex.codecogs.com/svg.image?\Sigma^*" title="\Sigma^*" />下的补集
 
-结论：$L$是decidable的 当且仅当 $L$和$L^C$都为Turing-recognizable的。（课件98页有其证明）
+结论：<img src="https://latex.codecogs.com/svg.image?L" title="L" />是decidable的 当且仅当<img src="https://latex.codecogs.com/svg.image?L^C" title="L^C" />和<img src="https://latex.codecogs.com/svg.image?L" title="L" />都为Turing-recognizable的。（课件98页有其证明）
+
