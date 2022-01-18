@@ -160,34 +160,32 @@ while (condition)
 
 两个必要部分：
 
-1. formal language：表示问题的方式 $F(L)$
-2. logical consequence relation：逻辑因果关系 $\vdash_L$
+1. formal language：表示问题的方式<img src="https://latex.codecogs.com/svg.image?F(L)" title="F(L)" />
+2. logical consequence relation：逻辑因果关系<img src="https://latex.codecogs.com/svg.image?\vdash_L" title="\vdash_L" />
 
-$L =_{df} (F(L), \vdash_L)\ where\ \vdash_L =_{df} 2^{F(L)} \rightarrow F(L)$
-
-
+<img src="https://latex.codecogs.com/svg.image?\inline&space;L&space;=_{df}&space;(F(L),&space;\vdash_L)\&space;where\&space;\vdash_L&space;=_{df}&space;2^{F(L)}&space;\rightarrow&space;F(L)" title="\inline L =_{df} (F(L), \vdash_L)\ where\ \vdash_L =_{df} 2^{F(L)} \rightarrow F(L)" />
 
 下面都是我的通俗理解，因为我也没有学过数理逻辑，欢迎大家指正：
 
-$F(L)$：我的理解就是L这个逻辑系统中表示命题的公式组成的集合
+<img src="https://latex.codecogs.com/svg.image?F(L)" title="F(L)" />：我的理解就是L这个逻辑系统中表示命题的公式组成的集合
 
-$\vdash_L$：我的理解就是蕴含，比如$P \vdash_L C$，就表示在逻辑体系L中，命题P可以推断出命题C，读作“turnstile the subscript L”
+<img src="https://latex.codecogs.com/svg.image?\vdash_L" title="\vdash_L" />：我的理解就是蕴含，比如<img src="https://latex.codecogs.com/svg.image?\inline&space;P&space;\vdash_L&space;C" title="\inline P \vdash_L C" />，就表示在逻辑体系L中，命题P可以推断出命题C，读作“turnstile the subscript L”
 
-$Ax(L)$：每个逻辑系统不证自明的公理
+<img src="https://latex.codecogs.com/svg.image?\inline&space;Ax(L)" title="\inline Ax(L)" />：每个逻辑系统不证自明的公理
 
-$Th(L)$：set of all logical theorems，不需要前提，仅由公理就可以推断出来的
+<img src="https://latex.codecogs.com/svg.image?\inline&space;Th(L)" title="\inline Th(L)" />：set of all logical theorems，不需要前提，仅由公理就可以推断出来的
 
-$P$：经验前提，命题的集合，$P \subseteq F(L)$
+<img src="https://latex.codecogs.com/svg.image?\inline&space;P" title="\inline P" />：经验前提，命题的集合，<img src="https://latex.codecogs.com/svg.image?\inline&space;P&space;\subseteq&space;F(L)" title="\inline P \subseteq F(L)" />
 
-$Th_L\ ^e(P)$：在L逻辑系统中，在命题P成立的前提下，可以推断出来的$Th(L)$之外的东西
+<img src="https://latex.codecogs.com/svg.image?\inline&space;Th_L\&space;^e(P)" title="\inline Th_L\ ^e(P)" />：在L逻辑系统中，在命题P成立的前提下，可以推断出来的<img src="https://latex.codecogs.com/svg.image?\inline&space;Th(L)" title="\inline Th(L)" />之外的东西
 
-$T_L(P)$：$Th(L)$和$Th_L\ ^e(P)$的并集，实际上就是P成立时，所有成立的命题组成的集合
+<img src="https://latex.codecogs.com/svg.image?\inline&space;T_L(P)" title="\inline T_L(P)" />：<img src="https://latex.codecogs.com/svg.image?\inline&space;Th(L)" title="\inline Th(L)" />和<img src="https://latex.codecogs.com/svg.image?\inline&space;Th_L\&space;^e(P)" title="\inline Th_L\ ^e(P)" />的并集，实际上就是P成立时，**所有成立的命题组成的集合**
 
 老师给的图有点迷惑性，于是我就又画了一个：
 
 <img src="./imgs/L04_2.png" alt="L04_2" style="zoom:50%;" />
 
-注意：$Th(L) \cap Th_L\ ^e(P) = \emptyset$！而$P \subseteq Th_L\ ^e(P)$，$Ax(L) \subseteq Th(L)$
+注意：<img src="https://latex.codecogs.com/svg.image?\inline&space;Th(L)&space;\cap&space;Th_L\&space;^e(P)&space;=&space;\emptyset" title="\inline Th(L) \cap Th_L\ ^e(P) = \emptyset" />！而<img src="https://latex.codecogs.com/svg.image?\inline&space;P&space;\subseteq&space;Th_L\&space;^e(P)" title="\inline P \subseteq Th_L\ ^e(P)" />，<img src="https://latex.codecogs.com/svg.image?\inline&space;Ax(L)&space;\subseteq&space;Th(L)" title="\inline Ax(L) \subseteq Th(L)" />
 
 
 
