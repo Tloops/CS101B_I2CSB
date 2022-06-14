@@ -49,7 +49,7 @@ JVM之后会编译或解释这些bytecode并执行它们
 - 数据类型（Data Type）：规定一个数据的存储的范围
 - 常量（Constants）：不变的数据
 - 直接量（Literal）：直接在程序中出现的量
-- 表达式（expressions）：
+- 表达式（Expressions）：
   - 算数（Arithmetic）：`(a + b * c) / d - e`
   - 逻辑（Logic）：`a > b`
     - 关系操作符：`> < >= <= == != (or <> or /=)`
@@ -106,7 +106,7 @@ JVM之后会编译或解释这些bytecode并执行它们
 ### Ada
 
 - Ada 83 世界上第一种编程语言
-- boeing 777 99%的代码都是用Ada写的
+- Boeing 777 99%的代码都是用Ada写的
 - 以Ada Lovelace的名字命名，她是世界上第一个程序员
 
 ### C++

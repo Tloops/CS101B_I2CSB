@@ -17,7 +17,7 @@
 
 ### 为啥要学？
 
-（好像和Computation的意义基本一样）
+（好像和computation的意义基本一样）
 
 - 探索computation的本质
 - 找到电脑能做的事情

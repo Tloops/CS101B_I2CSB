@@ -61,7 +61,7 @@ data和information的区别：
     - decimal 十进制：0到9
     - hexadecimal 十六进制：0到9，A到F（10到15）
   - 现代计算机最底层的硬件中所有的数据都是用0和1来存储的（还记得下节课要学的`flip-flop`吗），这恰好和二进制不谋而合，因此计算机里的数据和指令都是以**二进制**的形式存储的。
-  - 之所以要把Number放在第一个讲，是因为其实任何一种形式的数据Text、Audio、Images and graphics还是Video，**归根结底都是以Number的形式存放在内存中的**。
+  - 之所以要把Number放在第一个讲，是因为其实任何一种形式的数据Text、Audio、Images and Graphics还是Video，**归根结底都是以Number的形式存放在内存中的**。
 - 有小数部分的base为R的数<img src="https://latex.codecogs.com/svg.image?\inline&space;(d_nd_{n-1}d_{n-2}...d_2d_1.d_{-1}d_{-2}...d_{-m})_R" title="\inline (d_nd_{n-1}d_{n-2}...d_2d_1.d_{-1}d_{-2}...d_{-m})_R" />，表示的数为<img src="https://latex.codecogs.com/svg.image?\inline&space;\sum_{i=1}^n&space;d_i&space;\cdot&space;R^{i-1}&space;&plus;&space;\sum_{i=1}^m&space;d_{-i}&space;\cdot&space;R^{-i}" title="\inline \sum_{i=1}^n d_i \cdot R^{i-1} + \sum_{i=1}^m d_{-i} \cdot R^{-i}" />
 - bit（比特，binary digit的缩写，即二进制数字），即二进制系统中的一位数字，一个0或者一个1；
 - 1 byte = 8 bits，一个字节是8个比特
