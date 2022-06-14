@@ -94,9 +94,9 @@ EDSAC也是用这种体系结构，同时它也是世界上第一台能够存储
 
 
 
-## 指令（instructions）
+## 指令（Instructions）
 
-### 机器指令（machine instructions）
+### 机器指令（Machine Instructions）
 
 - （个人的总结）定义了**原**操作，即不可再分的最小功能。所有计算机能做到的操作应当**都能由**一条或多条指令实现。
 
