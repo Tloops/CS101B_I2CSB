@@ -33,3 +33,12 @@ SUSTech 计算机导论B 知识点梳理
 - Lesson 10 - [Operating Systems](./Lesson%2010%20-%20Operating%20System.md) (finished on Dec. 27th, 2021)
 - Lesson 11 - [System Software and Application Software](./Lesson%2011%20-%20System%20Software%20and%20Application%20Software.md) (finished on Dec. 27th, 2021)
 - Epilogue - [写在后面的话](./写在后面的话.md)
+
+
+### 2023.2.19更新
+
+昨天查看教务系统全校课表的时候，发现计导换了老师教，索性也查了一下数理逻辑课，居然也换了老师。后来才在知乎上得知程京德老师因为年龄原因无法在大学担任教职了，突然就非常感慨。本来从22级开始，这门课就从大家的培养方案上的必修课中消失了，现在程老师也离开了南科大。听说计系也准备尽快pass掉剩下的人，如果没有其他老师来带，这门课估计也就从此结束了吧。
+
+不过值得高兴的是我留下了这个repository。
+
+衷心感谢程老师的悉心教导，也祝愿他未来身体健康、万事如意。
