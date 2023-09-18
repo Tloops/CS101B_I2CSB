@@ -46,6 +46,23 @@ This work is licensed under a
 ### Contributors
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Tloops">
+            <img src="https://avatars.githubusercontent.com/u/51078038?v=4" width="100;" alt="Tloops"/>
+            <br />
+            <sub><b>Qiushi Nie</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/OctCarp">
+            <img src="https://avatars.githubusercontent.com/u/101980016?v=4" width="100;" alt="OctCarp"/>
+            <br />
+            <sub><b>Chunhui XU</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 
 ### 2023.2.19更新
