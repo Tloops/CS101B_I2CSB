@@ -43,6 +43,10 @@ This work is licensed under a
 - Lesson 11 - [System Software and Application Software](./Lesson%2011%20-%20System%20Software%20and%20Application%20Software.md) (finished on Dec. 27th, 2021)
 - Epilogue - [写在后面的话](./写在后面的话.md)
 
+### Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 ### 2023.2.19更新
 
